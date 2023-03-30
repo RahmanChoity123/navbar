@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+/*Header Part Starts */
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li:hover{
+background-color: crimson;
+transition: all ease-in .3s;
+}
+.navbar ul ul  {
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/*Header Part Ends */
+
+/* Form Starts */
+.form1{
+    background-color: crimson;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 80px;
+    margin-top: 100px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+}
+
+.form1 input{
+    padding: 5px 20px;
+    border-radius: 50px;
+    border-color: yellowgreen;
+}
+.form1 .btn {
+    font-weight: bold;
+
+}
+
+/* Form Ends */
+
+/*footerer Part Starts */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(53, 48, 48);
+    color: #ddd;
+    text-align: center;
+    width: 100%;
+}
+.name h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.text p{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    
+}
+.icon i{
+    font-size: 35px;
+    position: relative;
+      padding: 10px;
+}
+.copy{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    line-height: 40px;
+    font-size: 19px;
+}
+/*Footer Part Ends Here */
